@@ -35,15 +35,15 @@ const listSchema = {
 const List = mongoose.model("List", listSchema)
 
 const item1 = new Item({
-  name: "Do not take those pills"
+  name: "Wellcome to your notes"
 })
 
 const item2 = new Item({
-  name: "Fuck those doctors"
+  name: "For add note press +"
 })
 
 const item3 = new Item({
-  name: "fuck fuc fuck"
+  name: "<<<- Press check box to delete a note"
 })
 
 const itemsArr = [item1, item2, item3];
